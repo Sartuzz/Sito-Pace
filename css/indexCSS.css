@@ -1,0 +1,45 @@
+/* SARTI_MATTEO-MAFFIOLETTI_ANDREA_4BI_indexCSS.css 27/05/2021*/
+html,body
+{
+	height:100%;
+	width:100%;
+	margin:0px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #333;
+}
+/*tutti i paragrafi avranno queste caratteristiche*/
+p
+{
+	font-family: font-sans-serif;
+	font-size:110%;
+}
+
+/*========================*/
+/*=====   HEADER 	====*/
+/*========================*/
+
+#Header_menu
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    height: 50px;
+    width: 100%;
+    background-color: darkblue;
+}
+
+#Header_list 
+{
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    list-style-type: none;
+
+}
+
+.Header_li
+{
+    margin-right: 20px;
+    text-decoration: none;
+    
+}
