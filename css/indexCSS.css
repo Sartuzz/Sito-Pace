@@ -17,36 +17,51 @@ p
 /*========================*/
 /*=====   HEADER 	====*/
 /*========================*/
-
-#Header_contenitore_menu
+#Sfondo_Home
 {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: stretch;
     background-image: url(../img/mountain.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+    height: 757px;
+
+}
+#Header_contenitore_menu
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100px;
+    width: 100%;
 }
 
 #Titolo_home
 {
+    display: flex;
+    align-items: center;
     color: white;
-    margin: 0px;
-    padding-left: 65px;
-    padding-top: 30px;
-    font-size: 10px;
+    padding-left: 80px;
+    font-size: 12px;
 }
 
+/*lista dell Header di destra*/
+#Header_menu_destra
+{
+    display: flex;
+    float: right;
+
+}
 /*lista vera e propria all'interno del header*/
 #Header_list 
 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    height: 70px;
-    padding-right: 300px;
+    align-items: center;
+    padding-right: 100px;
+    
 }
 
 /*a all'interno del header*/
@@ -84,4 +99,30 @@ p
     display: flex;
     align-items: center;
 
+}
+/*****
+** Inizio parte div centrale home **
+*****/
+
+#logo_centraleHome
+{
+    padding-top: 70px;
+    height: 200px;
+    width: 150px;
+}
+
+#Titolo_Pace
+{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    margin-top: 15px;
+    color: white;
+}
+
+#imm_separator
+{
+    
 }
