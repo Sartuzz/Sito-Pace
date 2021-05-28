@@ -13,15 +13,27 @@
       <div id="Sfondo_Home">
         <div id="Header_contenitore_menu">
           <div id="Titolo_home">
-            <h1 >ITIS Vobarno</h1>
+            <h1>ITIS Vobarno</h1>
           </div>
           
           <div id="Header_menu_destra">
-            <ul id="Header_list">
+            <ul id="Header_list" class="dropdown-content"></ul>
               <li class="Header_li"><a class="Header_a active" href="">Home</a></li>
               <li class="Header_li"><a class="Header_a" href="">About me</a></li>
-              <li class="Header_li"><a class="Header_a"href="">Service</a></li>
-              <li class="Header_li"><a class="Header_a"href="">Books</a></li>
+              <li class="Header_li"><a class="Header_a"href="">Service</a></li>         
+
+              <li class="Header_li">
+                <div class="dropdown" ><!-- elenco -->
+                  <a class="Header_a" href="">Books</a>
+                  <div class="dropdown-content">
+                    <a href="" >Libro 1</a>
+                    <a href="" >Libro 2</a>
+                    <a href="" >Libro 3</a>
+                  </div>
+                </div>
+              </li>
+
+
             </ul>
           </div>
         </div>
@@ -31,6 +43,14 @@
         <h1 id="Titolo_Pace">LUCIANO PACE</h1>
 
         <center><img id="imm_separator" src="../img/separatorWhite.png"></center>
+
+        <div id="div_testo_home">
+          <p>
+            Phoenix – Retina Parallax HTML5 Template that combines both minimal 
+            and bold<br>designs to catch your visitor's eye and leave them a 
+            great first impression.
+          </p>
+        </div>
         
       </div>
     </header>

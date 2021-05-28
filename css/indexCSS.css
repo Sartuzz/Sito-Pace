@@ -26,7 +26,7 @@ p
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 757px;
+    height: 940px;
 
 }
 #Header_contenitore_menu
@@ -36,6 +36,7 @@ p
     align-items: stretch;
     height: 100px;
     width: 100%;
+    margin-top: 10px;
 }
 
 #Titolo_home
@@ -47,23 +48,18 @@ p
     font-size: 12px;
 }
 
+#Titolo_home :hover
+{
+    color: #777;
+}
+
 /*lista dell Header di destra*/
 #Header_menu_destra
 {
     display: flex;
-    float: right;
+    padding-right: 120px;
 
 }
-/*lista vera e propria all'interno del header*/
-#Header_list 
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-right: 100px;
-    
-}
-
 /*a all'interno del header*/
 .Header_a
 {
@@ -98,7 +94,14 @@ p
 {
     display: flex;
     align-items: center;
+}
 
+.Header_li :hover
+{
+    display: flex;
+    align-items: center;
+    color: white;
+    transition: 0.2s;
 }
 /*****
 ** Inizio parte div centrale home **
@@ -120,9 +123,62 @@ p
     letter-spacing: 12px;
     margin-top: 15px;
     color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 #imm_separator
 {
-    
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#div_testo_home
+{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/*-------------------------*/
+
+/* menu a tendina*/
+.dropdown
+{
+	position: relative;
+	display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content 
+{
+  display: none;
+  justify-content: center;
+  position: absolute;
+  background-color: #333;;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a     
+{
+    padding-top: 30px;
+    color: white;
+    padding: 10px 8px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover 
+{
+    background-color: rgb(185, 185, 185);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content 
+{
+  display: block;
 }
