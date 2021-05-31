@@ -14,6 +14,19 @@ p
 	font-size:110%;
 }
 
+h1, h2, h3, h4, h5 
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h5
+ {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+}
 /*========================*/
 /*=====   HEADER 	====*/
 /*========================*/
@@ -228,11 +241,36 @@ p
 /*========================*/
 /*=====   FOOTER	====*/
 /*========================*/
-.footer_logo
+.footer_logo_superiore
 {
     display: flex;
     justify-content: center;
+    align-items: center;
     background: #282828;
     padding: 50px;
+    height: 150px;
 
+}
+
+.logo_centraleHome_footer
+{
+    height: 200px;
+    width: 150px;
+}
+
+.footer_logo_inferiore
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #222222;
+    padding: 50px;
+    height: 150px;
+}
+
+.logo_freccia
+{
+    width: 50px;
+    height: 50px;
 }
