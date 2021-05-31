@@ -20,6 +20,15 @@ h1, h2, h3, h4, h5
     font-weight: 700;
 }
 
+h2
+{
+    font-size: 30px; 
+    text-transform: uppercase; 
+    letter-spacing: 15px;
+    margin: 0px;
+
+}
+
 h5
  {
     font-size: 14px;
@@ -207,30 +216,26 @@ h5
     display: flex;
     justify-self: unset;
     height: 500px;
-    padding: 100px;
-    padding-bottom: 0px;
     background-color: #1d1d1d;
 
 }
 
 #text_chi_siamo
 {
-    
     padding: 40px;
+    padding-top: 70px;
     padding-left: 150px;
     color: white;
     width: 700px;
-    z-index: 100;
+    min-width: 500px;
 }
 
 #logo_girato
 {
-    height: 600px;
-    width: 500px;
-    position: relative;
-    right: -730px;
-    top: -485px;
-    padding-left: 30px;
+    display: flex;
+    height: 500px;
+    width: 450px;
+    padding-left: 70px;
 }
 
 .testo_grigio
@@ -239,7 +244,26 @@ h5
     padding-top: 10px;
 }
 
+/*========================*/
+/*=====   LIBRI  	====*/
+/*========================*/
 
+#div_contenitore_libri
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    padding-top: 100px;
+
+}
+
+.Titoli_quadrati
+{  
+    display: flex;
+    padding: 25px 30px;
+    border: solid 10px black;
+}
 
 /*========================*/
 /*=====   FOOTER	====*/
@@ -277,3 +301,6 @@ h5
     width: 50px;
     height: 50px;
 }
+/*========================*/
+/*=====   FINE FOOTER	====*/
+/*========================*/
