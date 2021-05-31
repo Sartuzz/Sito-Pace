@@ -32,7 +32,7 @@ h2
 h4
 {
     letter-spacing: 0px;
-    font-size: 14px;
+    font-size: 20px;
 
 }
 
@@ -304,9 +304,16 @@ h5
 {
     display: flex;
     justify-content: center;
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 350px;
     padding: 50px;
+}
+
+.centro
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 5 px;
 }
 
 /*========================*/
