@@ -29,6 +29,13 @@ h2
 
 }
 
+h4
+{
+    letter-spacing: 0px;
+    font-size: 14px;
+
+}
+
 h5
  {
     font-size: 14px;
@@ -220,6 +227,27 @@ h5
 
 }
 
+.badge
+{
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    position: relative;
+    bottom: 1px;
+    vertical-align: middle;
+    color: #fff;
+    background-color: #737372;
+    display: inline-block;
+    padding: .5em .5rem;
+    font-size: .75rem;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .3125rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
 #text_chi_siamo
 {
     padding: 40px;
@@ -263,6 +291,22 @@ h5
     display: flex;
     padding: 25px 30px;
     border: solid 10px black;
+    margin-bottom: 50px;
+}
+
+#div_libri
+{
+    display: flex;
+    flex-direction: ;
+}
+
+.imm_libri
+{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+    padding: 50px;
 }
 
 /*========================*/
