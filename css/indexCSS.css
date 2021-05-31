@@ -57,7 +57,7 @@ p
 #Header_menu_destra
 {
     display: flex;
-    padding-right: 120px;
+    padding-right: 100px;
 
 }
 /*a all'interno del header*/
@@ -156,9 +156,11 @@ p
   justify-content: center;
   position: absolute;
   background-color: #333;;
-  min-width: 160px;
+  height: 120px;
+    min-width: 110px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  margin-top: 135px;
 }
 
 /* Links inside the dropdown */
@@ -181,4 +183,56 @@ p
 .dropdown:hover .dropdown-content 
 {
   display: block;
+}
+
+/* Parte sotto l'header*/
+#div_chi_siamo
+{
+    display: flex;
+    justify-self: unset;
+    height: 500px;
+    padding: 100px;
+    padding-bottom: 0px;
+    background-color: #1d1d1d;
+
+}
+
+#text_chi_siamo
+{
+    
+    padding: 40px;
+    padding-left: 150px;
+    color: white;
+    width: 700px;
+    z-index: 100;
+}
+
+#logo_girato
+{
+    height: 600px;
+    width: 450px;
+    position: relative;
+    right: -700px;
+    top: -485px;
+    padding-left: 30px;
+}
+
+.testo_grigio
+{
+    color: #e7e7e7;
+    padding-top: 10px;
+}
+
+
+
+/*========================*/
+/*=====   FOOTER	====*/
+/*========================*/
+.footer_logo
+{
+    display: flex;
+    justify-content: center;
+    background: #282828;
+    padding: 50px;
+
 }
