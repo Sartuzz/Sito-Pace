@@ -124,9 +124,10 @@ h5
 
 #logo_centraleHome
 {
-    padding-top: 70px;
-    height: 200px;
-    width: 150px;
+    padding-top: 60px;
+    height: 220px;
+    width: 170px;
+    padding-bottom: 20px;
 }
 
 #Titolo_Pace
@@ -225,9 +226,9 @@ h5
 #logo_girato
 {
     height: 600px;
-    width: 450px;
+    width: 500px;
     position: relative;
-    right: -700px;
+    right: -730px;
     top: -485px;
     padding-left: 30px;
 }
