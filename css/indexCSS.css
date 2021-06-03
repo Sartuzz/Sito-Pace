@@ -255,6 +255,8 @@ h5
 {
     display: flex;
     justify-self: unset;
+    justify-content: space-around;
+    align-items: center;
     height: 550px;
     background-color: #1d1d1d;
 
@@ -436,7 +438,6 @@ h5
 #div_libri
 {
     display: flex;
-    flex-direction: ;
 }
 
 .imm_libri
