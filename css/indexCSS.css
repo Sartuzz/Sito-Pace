@@ -222,15 +222,20 @@ h5
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content 
 {
-  display: none;
-  justify-content: center;
-  position: absolute;
-  background-color: #333;;
-  height: 120px;
-    min-width: 110px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  margin-top: 135px;
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    height: 120px;
+    min-width: 100px;
+    z-index: 1;
+    margin-top: 135px;
+    
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content 
+{
+  display: block;
 }
 
 /* Links inside the dropdown */
@@ -241,6 +246,7 @@ h5
     padding: 10px 8px;
     text-decoration: none;
     display: block;
+    background-color: #333;
 }
 
 /* Change color of dropdown links on hover */
@@ -249,11 +255,6 @@ h5
     background-color: rgb(185, 185, 185);
 }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content 
-{
-  display: block;
-}
 
 /* Parte sotto l'header*/
 #div_chi_siamo
@@ -310,7 +311,6 @@ h5
 
 #logo_girato
 {
-    display: flex;
     height: 500px;
     width: 450px;
     padding-left: 70px;
