@@ -401,7 +401,7 @@ h5
 {
     font-size: 30px; 
     text-transform: uppercase; 
-    letter-spacing: 15px;
+    letter-spacing: 5px;
     margin-bottom: 13px;
 }
 
@@ -519,10 +519,18 @@ h5
     height: 150px;
 }
 
-.logo_freccia
+.logo_social
 {
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.backtohome
+{
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
 }
 /*========================*/
 /*=====   FINE FOOTER	====*/
