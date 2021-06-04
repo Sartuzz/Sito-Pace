@@ -392,14 +392,36 @@ h5
     padding-left: 0px;
 }
 
+#testo_team
+{
+    margin-top: 80px;
+}
+
 .Nome_team
 {
     font-size: 30px; 
     text-transform: uppercase; 
     letter-spacing: 15px;
     margin-bottom: 13px;
-    margin-top: 80px;
 }
+
+.descrizione_team
+{
+    margin-top: 40px;
+}
+
+.social_team
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.social_team
+{
+    margin: 10px;
+    margin-left: 0px;
+}
+
 
 .sottotitolo_team
 {
@@ -412,6 +434,7 @@ h5
     border: solid 1px black;
     padding: 6px;
 }
+
 /*========================*/
 /*=====   LIBRI  	====*/
 /*========================*/
