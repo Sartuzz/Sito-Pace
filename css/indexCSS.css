@@ -1,4 +1,9 @@
 /* SARTI_MATTEO-MAFFIOLETTI_ANDREA_4BI_indexCSS.css 27/05/2021*/
+html
+{
+    scroll-behavior: smooth;
+}
+
 html,body
 {
 	height:100%;
@@ -325,15 +330,13 @@ h5
 {
     display: flex;
     flex-direction: inherit;
-    font-variant-caps: all-petite-caps; 
+    font-variant-caps: all-petite-caps;
     background-color: white;
 }
 .imm_presentazione
 {
-    display: flex;
     width: 60%;
     height: 500px;
-    overflow: hidden;
     background-image: linear-gradient(top right, #FFFFFF 0%, #AACFEF 100%);
 }
 
@@ -343,15 +346,13 @@ h5
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    right: 150px;
-    width: 700px;
+    width: 50%;
 }
 
 #testo_interno_presentazione_pace
 {
     text-align: center;
-    margin: 0 0 10px;
+    padding: 0 20px;
 }
 
 /*============================================*/
@@ -444,7 +445,7 @@ h5
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 50px;
     
 
 }
@@ -491,6 +492,14 @@ h5
 /*========================*/
 /*=====   FOOTER	====*/
 /*========================*/
+.footer_a
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
 .footer_logo_superiore
 {
     display: flex;
