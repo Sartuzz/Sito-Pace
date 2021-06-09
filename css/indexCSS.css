@@ -1,4 +1,9 @@
 /* SARTI_MATTEO-MAFFIOLETTI_ANDREA_4BI_indexCSS.css 27/05/2021*/
+html
+{
+    scroll-behavior: smooth;
+}
+
 html,body
 {
 	height:100%;
@@ -13,6 +18,7 @@ html,body
 {
     width: 120px;
     max-width: 120px;
+    margin:auto;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -177,6 +183,7 @@ h5
     height: 220px;
     width: 170px;
     padding-bottom: 20px;
+    margin: 0 auto;
 }
 
 #Titolo_Pace
@@ -194,6 +201,8 @@ h5
 
 #imm_separator
 {
+    margin: auto;
+    width: 170px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -217,15 +226,20 @@ h5
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content 
 {
-  display: none;
-  justify-content: center;
-  position: absolute;
-  background-color: #333;;
-  height: 120px;
-    min-width: 110px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  margin-top: 135px;
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    height: 120px;
+    min-width: 100px;
+    z-index: 1;
+    margin-top: 135px;
+    
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content 
+{
+  display: block;
 }
 
 /* Links inside the dropdown */
@@ -236,6 +250,7 @@ h5
     padding: 10px 8px;
     text-decoration: none;
     display: block;
+    background-color: #333;
 }
 
 /* Change color of dropdown links on hover */
@@ -244,11 +259,6 @@ h5
     background-color: rgb(185, 185, 185);
 }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content 
-{
-  display: block;
-}
 
 /* Parte sotto l'header*/
 #div_chi_siamo
@@ -305,7 +315,6 @@ h5
 
 #logo_girato
 {
-    display: flex;
     height: 500px;
     width: 450px;
     padding-left: 70px;
@@ -325,15 +334,13 @@ h5
 {
     display: flex;
     flex-direction: inherit;
-    font-variant-caps: all-petite-caps; 
+    font-variant-caps: all-petite-caps;
     background-color: white;
 }
 .imm_presentazione
 {
-    display: flex;
     width: 60%;
     height: 500px;
-    overflow: hidden;
     background-image: linear-gradient(top right, #FFFFFF 0%, #AACFEF 100%);
 }
 
@@ -343,15 +350,13 @@ h5
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    right: 150px;
-    width: 700px;
+    width: 50%;
 }
 
 #testo_interno_presentazione_pace
 {
     text-align: center;
-    margin: 0 0 10px;
+    padding: 0 20px;
 }
 
 /*============================================*/
@@ -392,14 +397,36 @@ h5
     padding-left: 0px;
 }
 
+#testo_team
+{
+    margin-top: 80px;
+}
+
 .Nome_team
 {
     font-size: 30px; 
     text-transform: uppercase; 
-    letter-spacing: 15px;
+    letter-spacing: 5px;
     margin-bottom: 13px;
-    margin-top: 80px;
 }
+
+.descrizione_team
+{
+    margin-top: 40px;
+}
+
+.social_team
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.social_team
+{
+    margin: 10px;
+    margin-left: 0px;
+}
+
 
 .sottotitolo_team
 {
@@ -412,6 +439,7 @@ h5
     border: solid 1px black;
     padding: 6px;
 }
+
 /*========================*/
 /*=====   LIBRI  	====*/
 /*========================*/
@@ -421,7 +449,7 @@ h5
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 50px;
     
 
 }
@@ -468,6 +496,14 @@ h5
 /*========================*/
 /*=====   FOOTER	====*/
 /*========================*/
+.footer_a
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
 .footer_logo_superiore
 {
     display: flex;
@@ -496,10 +532,18 @@ h5
     height: 150px;
 }
 
-.logo_freccia
+.logo_social
 {
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.backtohome
+{
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
 }
 /*========================*/
 /*=====   FINE FOOTER	====*/
