@@ -297,12 +297,9 @@ h5
 
 #text_chi_siamo
 {
-    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 70px;
-    padding-left: 150px;
     color: white;
     width: 700px;
     min-width: 500px;
@@ -317,9 +314,19 @@ h5
 
 #logo_girato
 {
-    height: 500px;
-    width: 450px;
-    padding-left: 70px;
+    height: 400px;
+    transform:rotate(30deg);
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Safari e Chrome */
+}
+
+#logo_girato:hover
+{
+     transform:rotate(0deg);
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Safari e Chrome */
+    transition: 0.5s;
+    transition-timing-function: ease-out;
 }
 
 .testo_grigio
