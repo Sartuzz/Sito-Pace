@@ -82,7 +82,7 @@ h5
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    background-image: url(../img/mountain.jpg);
+    background-image: url(../img/taglio.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -334,13 +334,16 @@ h5
 {
     display: flex;
     flex-direction: inherit;
+    justify-content: space-between;
     font-variant-caps: all-petite-caps;
     background-color: white;
 }
-.imm_presentazione
+#imm_presentazione_pace
 {
-    width: 60%;
+    background-color: black;
     height: 500px;
+    width: auto;
+    padding: 0 3%;
 }
 
 #testo_presentazione_pace
