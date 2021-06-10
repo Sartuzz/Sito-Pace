@@ -320,14 +320,14 @@ h5
     -webkit-transform: rotate(30deg); /* Safari e Chrome */
 }
 
-#logo_girato:hover
+/* #logo_girato:hover
 {
      transform:rotate(0deg);
-    -ms-transform: rotate(0deg); /* IE 9 */
-    -webkit-transform: rotate(0deg); /* Safari e Chrome */
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); 
     transition: 0.5s;
     transition-timing-function: ease-out;
-}
+} */
 
 .testo_grigio
 {
