@@ -83,6 +83,7 @@ h5
     flex-direction: column;
     align-items: stretch;
     background-image: url(../img/taglio.gif);
+    /* background-image: url(../img/mountain.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
