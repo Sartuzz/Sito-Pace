@@ -1,4 +1,5 @@
 /* SARTI_MATTEO-MAFFIOLETTI_ANDREA_4BI_indexCSS.css 27/05/2021*/
+
 html
 {
     scroll-behavior: smooth;
@@ -452,9 +453,7 @@ h5
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
-    
-
+    padding: 50px 0;
 }
 
 .Titoli_quadrati
@@ -462,7 +461,6 @@ h5
     display: flex;
     padding: 25px 30px;
     border: solid 8px black;
-    margin-bottom: 50px;
     color: rgb(185 185 185);
 }
 
@@ -535,10 +533,17 @@ h5
     height: 150px;
 }
 
+#frecce
+{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
 .logo_social
 {
-    width: 20px;
-    height: 20px;
+    width: 32px;
+    height: 32px;
     margin: 10px;
 }
 
