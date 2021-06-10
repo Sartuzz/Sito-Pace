@@ -384,7 +384,7 @@ h5
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    align-items: center;
 }
 
 .frecce_team
@@ -393,19 +393,26 @@ h5
     justify-content: center;
     width: 50px;
     height: 50px;
-    padding-top: 280px;
+    padding: 7% 50px;
+    /* padding-top: 280px;
     padding-right: 150px;
-    padding-left: 150px;
+    padding-left: 150px; */
+}
+
+#cont_dinamico_team
+{
+    display: flex;
+    justify-content: center;
+    width: 70%;
 }
 
 .imm_team
 {
     display: flex;
     justify-content: center;
+    padding-right: 50px;
     height: 500px;
     width: 380px;
-    padding: 50px;
-    padding-left: 0px;
 }
 
 #testo_team
