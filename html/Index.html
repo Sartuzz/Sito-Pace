@@ -65,7 +65,8 @@
     </div>
 
     <div id="div_presentazione_pace">
-      <img id="imm_presentazione_pace" src="../img/paceProfiloBlack.png">
+      
+      <!-- <img id="imm_presentazione_pace" src="../img/paceProfiloBlack.png"> -->
 
       <div id="testo_presentazione_pace">
         <h1 id="luciano_pace1">Luciano Pace</h1>
@@ -78,9 +79,26 @@
     </div>
 
     <div id="team">
+
+      <script>
+        var i=0;
+
+        function avanti(cont)
+        {
+          i++;
+          cont.innerHTML=i;
+        }
+
+        function indietro(cont)
+        {
+          i--;
+          cont.innerHTML=i;
+        }
+      </script>
+
       <img class="lineSeparatorBlack" src="../img/lineSeparatorBlack.png">
       <div id="cont_team">
-        <img class="frecce_team" src="../img/frecciaSX.png">
+        <img class="frecce_team" src="../img/frecciaSX.png" onclick="indietro(cont)">
 
         <div id="cont_dinamico_team">
           <img class="imm_team" src="../img/LogoHome.jpg">
@@ -98,18 +116,16 @@
             </p>
 
             <div class="social_team">
-              <a href="https://www.instagram.com/_matteosarti_/" target="_blank"><img  class="social_team" src="../img/insta_team.png"></a>
-              <a href="https://www.youtube.com/watch?v=mdlE682dNGE&t=1s" target="_blank"><img  class="social_team" src="../img/yt_team.png"></a>
-              
+                <a href="google.com" target="_blank"><img class="logo_social" src="../img/instagram.svg"> <span>: @sartimatteo</span></a>
+                <a href="google.com" target="_blank"><img class="logo_social" src="../img/instagram.svg"> <span>: @sartimatteo</span></a>
             </div>
-            
-            <img class="imm_elenco_bianco" src="../img/lineSeparatorBlackk.png">
           </div>
+
+          <p id="cont">0</p>
         </div>
 
-        <img class="frecce_team" src="../img/frecciaDX.png">
+        <img class="frecce_team" src="../img/frecciaDX.png" onclick="avanti(cont)">
       </div>
-
     </div>
     
     <div id="div_contenitore_libri">
