@@ -164,8 +164,6 @@ h5
 
 .Header_li :hover
 {
-    display: flex;
-    align-items: center;
     color: white;
     transition: 0.2s;
 }
@@ -210,54 +208,8 @@ h5
     color: white;
 }
 
-/*-------------------------*/
-
-/* menu a tendina*/
-.dropdown
-{
-	position: relative;
-	display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content 
-{
-    display: none;
-    position: absolute;
-    background-color: transparent;
-    height: 120px;
-    min-width: 100px;
-    z-index: 1;
-    margin-top: 135px;
-    
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content 
-{
-  display: block;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a     
-{
-    padding-top: 30px;
-    color: white;
-    padding: 10px 8px;
-    text-decoration: none;
-    display: block;
-    background-color: #333;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover 
-{
-    background-color: rgb(185, 185, 185);
-}
-
-
 /* Parte sotto l'header*/
-#div_chi_siamo
+#div_progetto
 {
     display: flex;
     justify-self: unset;
@@ -289,7 +241,7 @@ h5
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-#text_chi_siamo
+#text_progetto
 {
     display: flex;
     flex-direction: column;
@@ -332,6 +284,14 @@ h5
 /*================================*/
 /*=====     PRESENTAZIONI  	 ====*/
 /*================================*/
+
+#div_chi_siamo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
 
 #div_presentazione_pace
 {
@@ -400,6 +360,11 @@ h5
     padding-left: 150px; */
 }
 
+.frecce_team:hover
+{
+    cursor: pointer;
+}
+
 #cont_dinamico_team
 {
     display: flex;
@@ -413,7 +378,6 @@ h5
     justify-content: center;
     padding-right: 50px;
     height: 500px;
-    width: 380px;
 }
 
 #testo_team
@@ -490,7 +454,9 @@ h5
     padding: 25px 30px;
     /* border: solid 8px black; */
     color: rgb(185 185 185);
-    box-shadow: rgb(0 0 0 / 10%) -4px 9px 25px -6px;
+    /* box-shadow: rgb(0 0 0 / 10%) -4px 9px 25px -6px; */
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     border-radius: 5px;
 }
 
@@ -501,11 +467,9 @@ h5
 
 .imm_libri
 {
-    display: flex;
-    justify-content: center;
-    height: 250px;
     width: 350px;
-    padding: 50px;
+    height: auto;
+    padding: 65px;
 }
 
 .centro
@@ -513,15 +477,7 @@ h5
     display: flex;
     justify-content: center;
     margin-top: 5 px;
-    color: #252525;
-}
-
-.centro:hover
-{
-    display: flex;
-    justify-content: center;
-    margin-top: 5 px;
-    color: rgb(185 185 185);
+    color: #282828;
 }
 
 /*========================*/

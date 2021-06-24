@@ -20,7 +20,7 @@
             <ul id="Header_list" class="dropdown-content"></ul>
               <li class="Header_li"><a class="Header_a active" href="">Home</a></li>
               <li class="Header_li"><a class="Header_a" href="#text_chi_siamo">Progetto</a></li>  
-              <li class="Header_li"><a class="Header_a" href="#chi_siamo1">Chi Siamo</a></li> 
+              <li class="Header_li"><a class="Header_a" href="#chi_siamo">Chi Siamo</a></li> 
               <li class="Header_li"><a class="Header_a" href="#div_contenitore_libri">Book</a></li> 
               <li class="Header_li"><a class="Header_a"href="">Biblioteca</a></li>        
               <li class="Header_li"><a class="Header_a"href="">Aggiornamenti</a></li>     
@@ -44,8 +44,8 @@
         
       </div>
     </header>
-    <div id="div_chi_siamo">
-      <div id="text_chi_siamo">
+    <div id="div_progetto">
+      <div id="text_progetto">
         <h1>Il Nostro Progetto</h1>
         <img class="imm_elenco_bianco" src="../img/lineSeparatorWhite.png">
         <h3 class="mattina"><span class="badge">Com'è nato</span></h3>
@@ -58,11 +58,9 @@
       <img id="logo_girato" src="../img/sito_logo_white.png">
     </div>
 
-    <div class="sep"></div>
-
-    <div id="div_contenitore_libri">
+    <div id="div_chi_siamo">
       <span class="Titoli_quadrati">
-        <h2 id="chi_siamo1">Chi Siamo</h2>
+        <h2>Chi Siamo</h2>
       </span>
     </div>
 
@@ -85,25 +83,31 @@
       <script>
         var i=0;
 
-        function avanti(cont)
+        function avanti()
         {
-          i++;
-          cont.innerHTML=i;
+          if(i<5)
+            i++;
+          else
+            i=0;
+          cont_dinamico_team.innerHTML = teamChanger(i);
         }
 
-        function indietro(cont)
+        function indietro()
         {
-          i--;
-          cont.innerHTML=i;
+          if(i>0)
+            i--;
+          else
+            i=5;
+          cont_dinamico_team.innerHTML = teamChanger(i);
         }
       </script>
 
       <img class="lineSeparatorBlack" src="../img/lineSeparatorBlack.png">
       <div id="cont_team">
-        <img class="frecce_team" src="../img/frecciaSX.png" onclick="indietro(cont)">
+        <img class="frecce_team" src="../img/frecciaSX.png" onclick="indietro()">
 
         <div id="cont_dinamico_team">
-          <img class="imm_team" src="../img/LogoHome.jpg">
+          <img class="imm_team" src="../img/team/sarti.png">
         
           <div id="testo_team">
             <h2 class="Nome_team">Sarti Matteo</h2>
@@ -111,46 +115,38 @@
                 Studente
             </span>
             <p class="descrizione_team">
-              Sono uno stdente della 4BI,Nella home verrà descritto il progetto in sé: l’idea iniziale, com’è nato, come ci 
-              Sono uno stdente della 4BI,Nella home verrà descritto il progetto in sé: l’idea iniziale, com’è nato, come ci 
-              Sono uno stdente della 4BI,Nella home verrà descritto il progetto in sé: l’idea iniziale, com’è nato, come ci 
-              Sono uno stdente della 4BI,Nella home verrà descritto il progetto in sé: l’idea iniziale, com’è nato, come ci 
+              Sono nero ma va bene così, nella vita faccio le capriole e mangio ravioli, giuso su allah che il te alla pesca è meglio
+              di quello al limone e che il brescia calcio fa schifo! Mangio banane e È veramente buono battersi con persuasione, il
+              mondo appartiene a chi osa! La Vita è troppo bella per essere insignificante!
             </p>
 
             <div class="social_team">
-                <a href="google.com" target="_blank"><img class="logo_social" src="../img/instagram.svg"> <span>: @sartimatteo</span></a>
-                <a href="google.com" target="_blank"><img class="logo_social" src="../img/instagram.svg"> <span>: @sartimatteo</span></a>
+                <a href="https://www.instagram.com/_matteosarti_/" target="_blank"><img class="logo_social" src="../img/instagram.svg"> <span>: @sartimatteo</span></a>
             </div>
           </div>
-
-          <p id="cont">0</p>
         </div>
 
-        <img class="frecce_team" src="../img/frecciaDX.png" onclick="avanti(cont)">
+        <img class="frecce_team" src="../img/frecciaDX.png" onclick="avanti()">
       </div>
     </div>
-    
+
     <div id="div_contenitore_libri">
       <span class="Titoli_quadrati">
         <h2 id="libro1">LIBRI</h2>
       </span>
       <div id="div_libri">
         <div>
-          <a href="https://www.instagram.com/oradipace21/" target="_blank"><img class="imm_libri"  src="../img/LogoHome.jpg"></a>
+          <a href="https://www.instagram.com/oradipace21/" target="_blank">
+            <img class="imm_libri"  src="../img/riflessi.jpg">
+          </a>
           <h4 class="centro">Riflessi in uno specchio</h4>
         </div>
 
         <div>
-          <img class="imm_libri" src="../img/LogoHome.jpg">
+          <img class="imm_libri" src="../img/pensare.jpg">
           <h4 class="centro">Secondo libro</h4>
         </div>
-
-        <div>    
-          <img class="imm_libri" src="../img/LogoHome.jpg">
-          <h4 class="centro">Terzo libro</h4>
-        </div>
       </div>
-      <img class="lineSeparatorBlack" src="../img/lineSeparatorBlack.png">
     </div>
     
 
