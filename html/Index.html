@@ -85,7 +85,7 @@
 
         function avanti()
         {
-          if(i<5)
+          if(i<4/*5*/)
             i++;
           else
             i=0;
@@ -97,7 +97,8 @@
           if(i>0)
             i--;
           else
-            i=5;
+            // i=5;
+            i=4
           cont_dinamico_team.innerHTML = teamChanger(i);
         }
       </script>
@@ -107,7 +108,7 @@
         <img class="frecce_team" src="../img/frecciaSX.png" onclick="indietro()">
 
         <div id="cont_dinamico_team">
-          <img class="imm_team" src="../img/team/sarti.png">
+          <img class="imm_team" src="../img/team/sarti.jpg">
         
           <div id="testo_team">
             <h2 class="Nome_team">Sarti Matteo</h2>
