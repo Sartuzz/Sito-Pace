@@ -3,6 +3,7 @@
 html
 {
     scroll-behavior: smooth;
+    min-width: 1320px;
 }
 
 html,body
