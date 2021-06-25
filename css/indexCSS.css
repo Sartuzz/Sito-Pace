@@ -91,7 +91,6 @@ b
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    /* background-image: url(../img/taglio.gif); */
     background-image: url(../img/mountain.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -225,8 +224,8 @@ b
     align-items: center;
     height: 550px;
     background-color: #1d1d1d;
-    /*background: linear-gradient(180deg, rgba(0,0,0,1) 0%, #1d1d1d 50%);*/
-    background: linear-gradient(0deg, rgba(246,246,246,1) 0%, rgba(167,165,165,1) 7%, rgba(113,113,113,1) 15%, rgba(79,76,76,1) 24%, rgba(57,57,57,1) 34%, rgba(36,35,35,1) 44%, rgba(18,18,18,1) 58%, rgba(10,10,10,1) 69%, rgba(1,1,1,1) 87%, rgba(0,0,0,1) 0%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, #1d1d1d 50%);
+    /* background: linear-gradient(0deg, rgba(246,246,246,1) 0%, rgba(167,165,165,1) 7%, rgba(113,113,113,1) 15%, rgba(79,76,76,1) 24%, rgba(57,57,57,1) 34%, rgba(36,35,35,1) 44%, rgba(18,18,18,1) 58%, rgba(10,10,10,1) 69%, rgba(1,1,1,1) 87%, rgba(0,0,0,1) 0%); */
 }
 
 .badge
